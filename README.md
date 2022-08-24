@@ -1,2 +1,2 @@
-# aros_20210117
-praticing the react native
+# aros_hangman
+trying create a hangman game with html,css & js (FE).

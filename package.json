@@ -1,0 +1,11 @@
+{
+  "name": "aros_hangman",
+  "version": "1.0.0",
+  "description": "trying create a hangman game with html,css & js (FE).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Anderson Ramos",
+  "license": "ISC"
+}

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HANGMAN-47</title>
+</head>
+<body>
+    <script>
+        function selectAction(action)
+        {
+            action === "back"? action = "": null;
+            location.href = `/${action}`
+        }
+    </script>
+    <h1>47 - hangman</h1>
+    <button onclick='selectAction("play")'>Play a Game</button>
+    <button onclick='selectAction("create")'>Create a Game</button>
+    <button onclick='selectAction("find")'>Find a Game</button>
+</body>
+</html>

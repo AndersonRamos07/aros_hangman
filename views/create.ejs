@@ -19,6 +19,21 @@
     <h1>47 - hangman</h1>
     <h2>create</h2>
     <button onclick='selectAction("create")'>Create a Game</button>
+    <form action="/create" method="post">
+        <fieldset>
+            <!-- <label for="type">Type: </label>
+            <input type="text" id="type" name="type"><br> -->
+            <label for="word">Word: </label>
+            <input type="text" id="word" name="word"><br>
+            <label for="category">Category: </label>
+            <input type="text" id="category" name="category"><br>
+            <label for="skin">Skin: </label>
+            <input type="text" id="skin" name="skin">
+        </fieldset>
+        <fieldset>
+            <button type="submit">Create</button>
+        </fieldset>
+    </form>
     <button onclick='selectAction("back")'>Go Back</button>
 </body>
 </html>

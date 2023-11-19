@@ -18,7 +18,16 @@
     </script>
     <h1>47 - hangman</h1>
     <h2>find</h2>
-    <button onclick='selectAction("find")'>Find a Game</button>
+    <form action="/find" method="post">
+        <fieldset>
+            <label for="code">code: </label>
+            <input type="text" id="code" name="code"><br>
+        </fieldset>
+        <fieldset>
+            <button type="submit">Find</button>
+        </fieldset>
+    </form>
+
     <button onclick='selectAction("back")'>Go Back</button>
 </body>
 </html>
